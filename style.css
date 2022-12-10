@@ -1,0 +1,222 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.background{
+    background: url(images/donation8.jpg);
+    background-repeat: no-repeat;
+    padding: 8.4rem;
+    
+}
+.background .box-background .box-content{
+    text-align: center;
+    padding: 2rem;
+    backdrop-filter: blur(2.7px);
+} 
+.background .box-background .box-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight:800;
+    letter-spacing:0.07em;
+    text-shadow:0px 5px 10px rgba(0,0,0,1);
+} 
+.background .box-background .box-content p{
+    color: rgb(255, 255, 255);
+    margin-bottom: 2.2rem;
+    font-weight:800;
+    letter-spacing: 0.2rem;
+    text-shadow:0px 5px 10px rgba(0,0,0,1);
+} 
+.background .box-background .box-content a{
+    text-decoration: none;
+    background-color: rgb(230, 68, 68);
+    color: #fff;
+    padding: .9rem 1.5rem;
+    font-weight: 800;
+    text-shadow:0px 5px 10px rgba(0,0,0,01);
+    border-radius: .5rem;
+}
+/* donate */
+.donate .box-donate h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+.donate .box-donate p{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.donate .box-donate .donate-price{
+    display: flex;
+    margin-bottom: 3rem;
+    padding-left: 20%;
+}
+.donate .box-donate .donate-price h3{
+    margin-left: 2.2rem;
+    background-color: rgba(239, 236, 236, 0.559);
+    border: .1rem solid rgba(249, 249, 249, 0.663);
+    padding: 2.2rem 1.5rem;
+    font-size: 1.5rem;
+    color: #666;
+    font-weight: 600;
+    border-radius: .3rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+.donate .box-donate .donate-price .two-hundred{
+    background-color: rgba(250, 163, 163, 0.259);
+    border-radius: .3rem;
+    border: .2rem solid rgba(249, 68, 68, 0.663);
+    color: rgb(249, 68, 68);
+}
+.donate .box-donate .donate-price .one-hundred{
+    border: .2rem solid rgba(255, 255, 255, 0.663);
+}
+.donate .box-donate .donate-price .one-thousand{
+    border: .2rem solid rgba(255, 255, 255, 0.663);
+    padding: 2.2rem 1.2rem ;
+}
+.donate .box-donate .donate-price .five-hundred{
+    border: .2rem solid rgba(255, 255, 255, 0.663);
+}
+.donate .box-donate .donate-price .five-thousand{
+    
+    border: .2rem solid rgba(255, 255, 255, 0.663);
+    padding: 2.2rem 1.05rem ;
+}
+.donate .box-donate .donate-taka{
+    text-align: center;
+    font-size: .7rem;
+    margin-bottom: 2rem;
+}
+.donate .box-donate .donate-taka h2{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin-bottom: 2.8rem;
+    color: rgba(102, 102, 102, 0.469);
+    padding: .8rem;
+    border-bottom: 1px solid rgba(148, 148, 148, 0.428);
+    width: 45.4rem;
+    margin-left: 23%;
+}
+.donate .box-donate .donate-taka a{
+    text-decoration: none;
+    background-color: rgb(230, 68, 68);
+    color: #fff;
+    padding: .9rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 800;
+    text-shadow:0px 5px 10px rgba(0,0,0,01);
+    border-radius: .5rem;
+}
+/* donate plan */
+.donate-Plan{
+    padding-top: 2rem;
+}
+.donate-Plan h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+}
+.donate-Plan p{
+    text-align: center;
+    font-size: 1.1rem;
+}
+.donate-Plan .donate-content{
+    display: flex;
+    margin-top: 3rem;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 8rem;
+    
+}
+.donate-Plan .donate-content .donate-box{
+    background-color: rgba(179, 209, 215, 0.259);
+    padding: 3rem 2rem 3rem 1.5rem;
+    border-radius: .5rem;
+}
+.donate-Plan .donate-content .donate-box img{
+    padding-bottom: 2rem;
+}
+.donate-Plan .donate-content .donate-box h2{
+    padding-bottom: 2rem;
+    text-shadow:0px 5px 10px rgba(231, 229, 229, 0.527);
+}
+.donate-Plan .donate-content .donate-box p{
+    padding-bottom: 2rem;
+    text-align: left;
+}
+.donate-Plan .donate-content .donate-boxes{
+    background-color: rgba(189, 118, 129, 0.156);
+    padding: 3rem 2rem 3rem 1.5rem;
+    border-radius: .5rem;
+}
+.donate-Plan .donate-content .donate-boxes img{
+    padding-bottom: 2rem;
+    text-shadow:0px 5px 10px rgba(231, 229, 229, 0.527);
+}
+.donate-Plan .donate-content .donate-boxes h2{
+    padding-bottom: 2rem;
+}
+.donate-Plan .donate-content .donate-boxes p{
+    padding-bottom: 2rem;
+    text-align: left;
+}
+.donate-Plan .donate-content .donate-boxer{
+    background-color: rgba(251, 173, 27, 0.129);
+    padding: 3rem 2rem 3rem 1.5rem;
+    border-radius: .5rem;
+}
+.donate-Plan .donate-content .donate-boxer img{
+    padding-bottom: 2rem;
+}
+.donate-Plan .donate-content .donate-boxer h2{
+    padding-bottom: 2rem;
+    text-shadow:0px 5px 10px rgba(231, 229, 229, 0.527);
+}
+.donate-Plan .donate-content .donate-boxer p{
+    padding-bottom: 2rem;
+    text-align: left;
+    
+}
+/* get to update */
+.get-update{
+    background-color: rgba(251, 173, 27, 0.193);
+    padding: 5rem 10rem;
+    width: 22rem;
+    margin-top: 4rem;
+    margin-left: 21rem;
+    margin-bottom: 4rem;
+}
+.get-update .box-container{
+    display: flex;
+    gap: 10rem;
+    background-color: rgba(167, 159, 159, 0.878);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.get-update .box-container .box-color{
+    color: red;
+}
+footer{
+    padding: 4rem;
+    background:rgba(18,18,26,1);
+}
+footer h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #666;
+    color:  #ff6200;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer p{
+    text-align: center;
+    color: #ccc ;
+}
