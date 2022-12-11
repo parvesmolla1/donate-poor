@@ -195,14 +195,32 @@
 }
 .get-update .box-container{
     display: flex;
-    gap: 10rem;
-    background-color: rgba(167, 159, 159, 0.878);
+    
+}
+.get-update .box-container .box1{
+    background-color: rgb(255, 0, 0);
     padding: 1rem;
-    border-radius: .5rem;
+    padding-left: 1rem;
+    border-radius: 0 .5rem .5rem 0;
 }
-.get-update .box-container .box-color{
-    color: red;
+.get-update .box-container .box1 p{
+    color: #fff;
+    padding: 0 .4rem;
 }
+.get-update .box-container .box{
+    background-color: rgba(163, 157, 157, 0.584);
+    padding: 0 11rem;    
+    padding-left: 1rem;
+    border-radius: .5rem 0 0 .5rem;
+}
+.get-update .box-container .box p{
+    color: #666;
+    margin-top: .9rem;
+    padding: 0 .3rem;
+}
+
+
+
 footer{
     padding: 4rem;
     background:rgba(18,18,26,1);
